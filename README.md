@@ -11,4 +11,11 @@ The blink duration is set to 1 frame and sleep is set to 5 frames.
 ## Emotion Detection:
 Haar Cascade frontal face detector is used for emotion recognition. 
 Mini Xception model is trained on the on the FER-2013 dataset which was published on International Conference on Machine Learning (ICML). This dataset consists of 35887 grayscale, 48x48 sized face images with seven emotions - angry, disgusted, fearful, happy, neutral, sad and surprised.
+Below is the model accuracy plot:
+![Accuracy Curves](https://github.com/vvenkatesh-ML/Head-Tracking-and-Detection-/blob/main/Screenshots/mini_xception_plot.png)
+
+## How to Use:
+The main file is 'head_pose_test.py' wihtin the 'src' folder, all required dependencies are within that folder. The 'head_pose_test.py' will output a video from the webcam which will also have all the above mentioned texts. 
+
+For the emotion recognition, the trained model can be used directly if you wish to create a custome model use the 'data_preprocess.py' with the data attained from here: https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data?select=icml_face_data.csv
 
