@@ -14,8 +14,13 @@ Mini Xception model is trained on the on the FER-2013 dataset which was publishe
 Below is the model accuracy plot:
 ![Accuracy Curves](https://github.com/vvenkatesh-ML/Head-Tracking-and-Detection-/blob/main/Screenshots/mini_xception_plot.png)
 
+## Overall Summary:
+![Summary Chart](https://github.com/vvenkatesh-ML/Head-Tracking-and-Detection-/blob/main/Screenshots/Vision%20System.png)
+
 ## How to Use:
 The main file is 'head_pose_test.py' wihtin the 'src' folder, all required dependencies are within that folder. The 'head_pose_test.py' will output a video from the webcam which will also have all the above mentioned texts. 
 
 For the emotion recognition, the trained model can be used directly if you wish to create a custome model use the 'data_preprocess.py' with the data attained from here: https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data?select=icml_face_data.csv
+
+
 
