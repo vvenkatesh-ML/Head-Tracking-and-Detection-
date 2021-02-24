@@ -18,7 +18,7 @@ Below is the model accuracy plot:
 ![Summary Chart](https://github.com/vvenkatesh-ML/Head-Tracking-and-Detection-/blob/main/Screenshots/Vision%20System.png)
 
 ## How to Use:
-The main file is 'head_pose_test.py' wihtin the 'src' folder, all required dependencies are within that folder. The 'head_pose_test.py' will output a video from the webcam which will also have all the above mentioned texts. 
+The main file which runs all the functionalities is 'head_pose_test.py' within the 'src' folder, all required dependencies are within that folder. The 'head_pose_test.py' will output a video from the webcam which will also have all the above mentioned functionalities. 
 
 For the emotion recognition, the trained model can be used directly if you wish to create a custome model use the 'data_preprocess.py' with the data attained from here: https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data?select=icml_face_data.csv
 
