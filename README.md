@@ -22,7 +22,7 @@ The main file is 'head_pose_test.py' wihtin the 'src' folder, all required depen
 
 For the emotion recognition, the trained model can be used directly if you wish to create a custome model use the 'data_preprocess.py' with the data attained from here: https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data?select=icml_face_data.csv
 
-The output video with all these features can be seen in the 'Output Video' folder
+The output video with all these features can be seen in the 'Output Video' folder.
 
 
 
